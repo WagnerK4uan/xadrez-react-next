@@ -225,18 +225,6 @@ npm run lint     # Verifica erros com ESLint
 
 ---
 
-## Commits do projeto
-
-| # | Commit | O que foi feito |
-|---|--------|----------------|
-| 1 | `feat: initialize chess project` | Setup inicial, tipos, engine base, CSS |
-| 2 | `feat: add chess move validation engine` | Movimentos legais, check, checkmate, roque, en passant |
-| 3 | `feat: add Zustand game store` | Estado global, ações, lógica de clique |
-| 4 | `feat: add chess piece SVG components` | Peças SVG inline para as 12 combinações |
-| 5 | `feat: add board and piece components` | Tabuleiro, casas, highlights, modal de promoção |
-| 6 | `feat: add complete game UI` | Página final com painel, histórico e capturadas |
-
----
 
 ## Licença
 
