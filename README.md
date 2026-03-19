@@ -23,14 +23,14 @@
 
 ## Stack
 
-| Camada | Tecnologia | Versão |
-|--------|-----------|--------|
-| Framework | [Next.js](https://nextjs.org/) (App Router) | 16 |
-| UI | [React](https://react.dev/) | 19 |
-| Linguagem | [TypeScript](https://www.typescriptlang.org/) (strict mode) | 5 |
-| Estilização | [Tailwind CSS](https://tailwindcss.com/) | v4 |
-| Estado global | [Zustand](https://zustand-demo.pmnd.rs/) | 5 |
-| Ícones | [Lucide React](https://lucide.dev/) | latest |
+| Camada        | Tecnologia                                                  | Versão |
+| ------------- | ----------------------------------------------------------- | ------ |
+| Framework     | [Next.js](https://nextjs.org/) (App Router)                 | 16     |
+| UI            | [React](https://react.dev/)                                 | 19     |
+| Linguagem     | [TypeScript](https://www.typescriptlang.org/) (strict mode) | 5      |
+| Estilização   | [Tailwind CSS](https://tailwindcss.com/)                    | v4     |
+| Estado global | [Zustand](https://zustand-demo.pmnd.rs/)                    | 5      |
+| Ícones        | [Lucide React](https://lucide.dev/)                         | latest |
 
 ---
 
@@ -134,13 +134,13 @@ PASSO 3 — Movimentos especiais
 
 ### Indicadores visuais
 
-| Destaque | Significado |
-|----------|-------------|
-| Verde | Peça selecionada |
-| Ponto cinza | Casa vazia disponível para mover |
-| Anel cinza | Casa ocupada disponível para capturar |
-| Amarelo | Origem e destino do último movimento |
-| Vermelho pulsante | Rei em xeque |
+| Destaque          | Significado                           |
+| ----------------- | ------------------------------------- |
+| Verde             | Peça selecionada                      |
+| Ponto cinza       | Casa vazia disponível para mover      |
+| Anel cinza        | Casa ocupada disponível para capturar |
+| Amarelo           | Origem e destino do último movimento  |
+| Vermelho pulsante | Rei em xeque                          |
 
 ---
 
@@ -225,6 +225,13 @@ npm run lint     # Verifica erros com ESLint
 
 ---
 
+## Demonstração em ação
+
+<div align="center">
+  <img src="public/xadrez_demonstração.gif" alt="Demonstração do jogo de xadrez" width="600"/>
+</div>
+
+---
 
 ## Licença
 
