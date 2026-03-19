@@ -233,11 +233,6 @@ npm run lint     # Verifica erros com ESLint
 
 ---
 
-## Licença
-
-MIT — sinta-se livre para usar, modificar e distribuir.
-
----
 
 <div align="center">
   Feito com ♟ e TypeScript
