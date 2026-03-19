@@ -7,17 +7,10 @@
 
 ## Demonstração visual
 
-```
-  8  ♜  ♞  ♝  ♛  ♚  ♝  ♞  ♜
-  7  ♟  ♟  ♟  ♟  ♟  ♟  ♟  ♟
-  6  .  .  .  .  .  .  .  .
-  5  .  .  .  .  .  .  .  .
-  4  .  .  .  .  ♙  .  .  .
-  3  .  .  .  .  .  .  .  .
-  2  ♙  ♙  ♙  ♙  .  ♙  ♙  ♙
-  1  ♖  ♘  ♗  ♕  ♔  ♗  ♘  ♖
-     a  b  c  d  e  f  g  h
-```
+<div align="center">
+  <img src="public/xadrez_demonstração.gif" alt="Demonstração do jogo de xadrez" width="600"/>
+</div>
+
 
 ---
 
@@ -27,7 +20,7 @@
 | ------------- | ----------------------------------------------------------- | ------ |
 | Framework     | [Next.js](https://nextjs.org/) (App Router)                 | 16     |
 | UI            | [React](https://react.dev/)                                 | 19     |
-| Linguagem     | [TypeScript](https://www.typescriptlang.org/) (strict mode) | 5      |
+| Linguagem     | [TypeScript](https://www.typescriptlang.org/)               | 5      |
 | Estilização   | [Tailwind CSS](https://tailwindcss.com/)                    | v4     |
 | Estado global | [Zustand](https://zustand-demo.pmnd.rs/)                    | 5      |
 | Ícones        | [Lucide React](https://lucide.dev/)                         | latest |
@@ -223,13 +216,6 @@ npm run start    # Serve o build de produção
 npm run lint     # Verifica erros com ESLint
 ```
 
----
-
-## Demonstração em ação
-
-<div align="center">
-  <img src="public/xadrez_demonstração.gif" alt="Demonstração do jogo de xadrez" width="600"/>
-</div>
 
 ---
 
