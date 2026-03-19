@@ -85,9 +85,14 @@
   .chess-board {
     display: grid;
     grid-template-columns: repeat(8, minmax(0, 1fr));
-    border: 2px solid rgb(55 65 81);
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    grid-template-rows: repeat(8, minmax(0, 1fr));
     aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border: 2px solid rgb(55 65 81);
+    border-radius: 2px;
+    box-shadow:
+      0 25px 50px -12px rgb(0 0 0 / 0.5),
+      0 0 0 4px rgb(55 65 81 / 0.6);
   }
 
   .chess-square {
@@ -95,8 +100,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: 1 / 1;
+    width: 100%;
     cursor: pointer;
     user-select: none;
+    overflow: hidden;
     transition: background-color 100ms;
   }
 
