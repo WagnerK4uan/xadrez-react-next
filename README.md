@@ -11,6 +11,12 @@
   <img src="public/xadrez_demonstração.gif" alt="Demonstração do jogo de xadrez" width="600"/>
 </div>
 
+<p align="center">
+  <a href="https://xadrez-react-next.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Jogar%20Agora-Online-green?style=for-the-badge" />
+  </a>
+</p>
+
 
 ---
 
